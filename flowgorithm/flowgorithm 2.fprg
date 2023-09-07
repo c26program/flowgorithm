@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-04 01:06:38 PM"/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLTRLRzNKM0E7MjAyMy0wOS0wNDswNToxNzoxOCBBTTsyNjc4"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLTRLRzNKM0E7MjAyMy0wOS0wNDswMTowNjozOCBQTTszOzI3OTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="3.14*r*r"/>
+            <output expression="A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

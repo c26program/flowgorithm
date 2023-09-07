@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-07 09:02:15 AM"/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLTRLRzNKM0E7MjAyMy0wOS0wNzswODo0Nzo1NyBBTTsyNjkw"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLTRLRzNKM0E7MjAyMy0wOS0wNzswOTowMjoxNSBBTTsxOzI3ODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="username" type="String" array="False" size=""/>
+            <declare name="password" type="String" array="False" size=""/>
+            <input variable="username"/>
+            <input variable="password"/>
+            <declare name="loginid" type="String" array="False" size=""/>
+            <assign variable="loginid" expression="username"/>
+            <declare name="login" type="String" array="False" size=""/>
+            <assign variable="login" expression="username"/>
+            <if expression="loginid=username">
+                <then>
+                    <output expression="login" newline="True"/>
+                </then>
+                <else>
+                    <output expression="not login" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

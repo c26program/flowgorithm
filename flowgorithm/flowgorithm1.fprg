@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-04 04:28:28 AM"/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLTRLRzNKM0E7MjAyMy0wOS0wNDswMzo1OToyNyBBTTsyNjgy"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLTRLRzNKM0E7MjAyMy0wOS0wNDswNDoyODoyOCBBTTsxOzI3ODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <declare name="C" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <declare name="M" type="Integer" array="False" size=""/>
+            <assign variable="M" expression="A+B+C"/>
+            <declare name="Y" type="Integer" array="False" size=""/>
+            <input variable="y"/>
+            <declare name="S" type="Integer" array="False" size=""/>
+            <assign variable="S" expression="M/Y"/>
+            <output expression="S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
